@@ -1,0 +1,136 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		171E0216206E4912002EB5DE /* RxAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 171E0219206E4912002EB5DE /* Build configuration list for PBXAggregateTarget "RxAggregate" */;
+			buildPhases = (
+				171E021A206E491B002EB5DE /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = RxAggregate;
+			productName = RxAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXFileReference section */
+		171E0215206E48D4002EB5DE /* Rx.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		171E020E206E487E002EB5DE = {
+			isa = PBXGroup;
+			children = (
+				171E0215206E48D4002EB5DE /* Rx.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		171E020F206E487E002EB5DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					171E0216206E4912002EB5DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 171E0212206E487E002EB5DE /* Build configuration list for PBXProject "RxPlayground" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 171E020E206E487E002EB5DE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				171E0216206E4912002EB5DE /* RxAggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		171E021A206E491B002EB5DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -rv \"${SRCROOT}/Carthage/Build/iOS/\" \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		171E0213206E487E002EB5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		171E0214206E487E002EB5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		171E0217206E4912002EB5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LF5SD8CL9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		171E0218206E4912002EB5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LF5SD8CL9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		171E0212206E487E002EB5DE /* Build configuration list for PBXProject "RxPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171E0213206E487E002EB5DE /* Debug */,
+				171E0214206E487E002EB5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171E0219206E4912002EB5DE /* Build configuration list for PBXAggregateTarget "RxAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171E0217206E4912002EB5DE /* Debug */,
+				171E0218206E4912002EB5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 171E020F206E487E002EB5DE /* Project object */;
+}
