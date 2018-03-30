@@ -1,9 +1,6 @@
-//: Playground - noun: a place where people can play
-
 import PlaygroundSupport
 PlaygroundPage.current.needsIndefiniteExecution = true
 
-import Foundation
 import RxSwift
 
 exampleOf("just") {
@@ -28,16 +25,22 @@ exampleOf("from") {
         .disposed(by: bag)
     
     observable
-        .subscribe(onNext: { print("Next:", $0) }, onError: { print("Err:", $0) }, onCompleted: { print("Completed") }, onDisposed: { print("Disposed") })
-        .disposed(by: bag)
+        .subscribe(
+            onNext: { print("Next:", $0) },
+            onError: { print("Err:", $0) },
+            onCompleted: { print("Completed") },
+            onDisposed: { print("Disposed") }
+        ).disposed(by: bag)
 }
 
 exampleOf("error") {
     enum TestError: Error {
         case test
     }
+    
     let disposable = Observable<Int>
         .error(TestError.test)
         .asObservable()
         .subscribe { print($0) }
 }
+

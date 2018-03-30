@@ -21,14 +21,14 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXFileReference section */
-		171E0215206E48D4002EB5DE /* Rx.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		17D41932206E660300306DE8 /* Rx.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		171E020E206E487E002EB5DE = {
 			isa = PBXGroup;
 			children = (
-				171E0215206E48D4002EB5DE /* Rx.playground */,
+				17D41932206E660300306DE8 /* Rx.playground */,
 			);
 			sourceTree = "<group>";
 		};
