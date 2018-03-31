@@ -6,5 +6,6 @@
         <page name='Transformations'/>
         <page name='Filters'/>
         <page name='Reducers'/>
+        <page name='SideEffects'/>
     </pages>
 </playground>
